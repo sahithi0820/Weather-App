@@ -50,12 +50,14 @@ This project uses the requests library. Install it using pip:
 Open the Python script (e.g., weather_app.py) and replace the placeholder 'API_KEY' with the actual API key you generated in Step 2.
 
 # In your code, find this line and update it:
+
 **API_KEY = 'YOUR_ACTUAL_API_KEY_HERE'  # Get your free API key from https://openweathermap.org/**
 
 The app uses the following API endpoint, which is already built into the code:
 **https://api.openweathermap.org/data/2.5/weather?q={city_name}&appid={API_KEY}&units=metric**
 
 **🚀 How to Run**
+
 •Ensure you have completed the setup steps above.
 
 •Run the Python script from your terminal or command prompt:
