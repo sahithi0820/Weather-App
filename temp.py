@@ -4,7 +4,7 @@ import requests
 
 def data_get():
     city= city_name.get()
-    data = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=1e8984348f46033da1959c65743ee33b").json()
+    data = requests.get("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid={API_KEY}").json()
     w_label1.config(text=data["weather"][0]["main"])
     wb_label1.config(text=data["weather"][0]["description"])
     temp_label1.config(text=str(int(data["main"]["temp"]-273.15)))
@@ -53,5 +53,6 @@ per_label1.place(x=260, y=470, height=50, width=150)
 #done button
 done_button = Button(win, text = "Done", font=("Times New Roman", 20, "bold"),command=data_get)
 done_button.place(x=200, y=190, height=50, width=100)
+
 
 win.mainloop()
