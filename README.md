@@ -38,7 +38,7 @@ Follow these steps to run the application on your local machine.
 
 *3. Clone the Repository*
 
-**git clone https://github.com/your-username/your-weather-app-repo.git
+**git clone https://github.com/sahithi0820/your-weather-app-repo.git
 cd your-weather-app-repo**
 
 *4. Install Required Library*
