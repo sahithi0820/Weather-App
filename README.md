@@ -1,4 +1,5 @@
-**🌤️ Python Weather App**
+## **🌤️ Python Weather App**
+
 A simple, lightweight, and user-friendly desktop weather application built using Python and Tkinter. This app fetches real-time weather data for any city worldwide using the OpenWeatherMap API.
 
 **✨ Features**
